@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 /**
- * Facade for LocalDate.
+ * Facade for java.time.LocalDate.
  */
 public class AgeService {
 
