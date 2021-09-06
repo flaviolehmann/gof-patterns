@@ -2,7 +2,7 @@ package com.github.flaviolehmann.service.dto;
 
 import java.time.LocalDate;
 
-public class Person {
+public class PersonDTO {
 
     private static Long objectsCount = 0L;
 
@@ -34,7 +34,7 @@ public class Person {
         this.birth = birth;
     }
 
-    public Person(String name, LocalDate birth) {
+    public PersonDTO(String name, LocalDate birth) {
         this.id = ++objectsCount;
         this.name = name;
         this.birth = birth;
