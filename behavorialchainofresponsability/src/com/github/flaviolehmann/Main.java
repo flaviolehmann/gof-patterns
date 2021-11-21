@@ -16,13 +16,8 @@ public class Main {
     public void main() {
         BaseMessageHandler entrypoint = initializeChainOfResponsibility();
 
-        // First test
         entrypoint.handle(new MessageDTO("Simple and no-capitalized message", "Default Emitter", 1L));
-
-        // First test
         entrypoint.handle(new MessageDTO("Serious and capitalized message", "Default Emitter", 7L));
-
-        // First test
         entrypoint.handle(new MessageDTO("Real serious message", "Default Emitter", 12L));
     }
 
